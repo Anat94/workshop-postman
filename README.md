@@ -4,4 +4,4 @@
 ``sudo snap install postman``
 
 2# Open Postman
-<img src="https://github.com/kvn703/WORKSHOP_FORMULAIRE_HUB/blob/main/Postman.png" width="300"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/Postman.png" width="300"/>
