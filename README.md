@@ -114,3 +114,18 @@ With the same Link, try to search product by phone
             }
             ],"total":4,"skip":0,"limit":4}
 ```
+
+## 3.3 - Try your first POST request
+``
+https://dummyjson.com/products/add
+``
+
+On this link, try to add a product with the title: "BMW Pencil"
+The request must return a message in JSON format
+
+```
+{
+    "id": 101,
+    "title": "BMW Pencil"
+}
+```
