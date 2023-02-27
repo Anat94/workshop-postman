@@ -146,3 +146,43 @@ Your outpout should seems like that:
     "limit":1
 }
 ```
+## 3.3 - Try your first POST request
+``
+https://dummyjson.com/products/add
+``
+
+On this link, try to add a product with the title: "BMW Pencil"
+The request must return a message in JSON format
+
+```
+{
+    "id": 101,
+    "title": "BMW Pencil"
+}
+```
+## 3.4 - Try your first PUT request
+``
+https://dummyjson.com/products/1
+``
+Now, try to update this product with title: "iPhone Galaxy +1"
+
+```
+{
+    "id": 1,
+    "title": "iPhone Galaxy +1",
+    "price": 549,
+    "stock": 94,
+    "rating": 4.69,
+    "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/4.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    ],
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "description": "An apple mobile which is nothing like apple",
+    "brand": "Apple",
+    "category": "smartphones"
+}
+```
