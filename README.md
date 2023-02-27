@@ -214,3 +214,6 @@ Finaly, try to delete the object with the id one on the same link than before. Y
 }
 ```
 
+# Final step (Bonus):
+
+Now try to create an API to and implement all the previous route. You're free to use all languages like Python, JavaScript etc...
