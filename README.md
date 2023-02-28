@@ -220,7 +220,7 @@ Now try to create an API to and implement all the previous route. You're free to
 
 # Unit Tests
 
-## Create a colelction
+## Create a collection
 
 Now you have create your own server. You should setup some unit - test. With Postman you can do some.
 To do so, go to
@@ -236,10 +236,18 @@ Fill all fields like you have seen before (urls etc...)
 
 ## Set up Units tests
 
-Go to `` Test `` Tab : 
+Go to `` Test `` Tab :
 
 <img src="https://github.com/Anat94/workshop-postman/blob/main/tests.png" width="200"/>
 
 Check on the right some tests example :
 
 <img src="https://github.com/Anat94/workshop-postman/blob/main/example.png" width="200"/>
+
+Now, make some unit test for all routes you have create.
+
+- Your routes should always response a 200 sucess code
+- The reponse time should be < 400ms
+- You should verify the content of the response
+
+Finally, you should have 3 - 5 tests for every routes.
