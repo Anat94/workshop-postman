@@ -214,6 +214,20 @@ Finaly, try to delete the object with the id one on the same link than before. Y
 }
 ```
 
-# Final step (Bonus):
+# Final step :
 
 Now try to create an API to and implement all the previous route. You're free to use all languages like Python, JavaScript etc...
+
+# Unit Tests
+
+Now you have create your own server. You should setup some unit - test. With Postman you can do some.
+To do so, go to
+``collection :``
+
+<img src="https://github.com/Anat94/workshop-postman/blob/main/Collection.png" width="200"/>
+
+Then, create a new collection :
+
+<img src="https://github.com/Anat94/workshop-postman/blob/main/new.png" width="200"/>
+
+Fill all fields like you have seen before (urls etc...)
