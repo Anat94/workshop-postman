@@ -254,7 +254,7 @@ Finally, you should have 3 - 5 tests for every routes.
 
 Here some outputs example :
 
-<img src="https://github.com/Anat94/workshop-postman/blob/main/testResults.png" width="200"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/testsResults.png" width="200"/>
 
 Of course, all tests MUST BE in PASS status and none should fail.
 
