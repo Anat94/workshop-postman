@@ -258,4 +258,10 @@ Here some outputs example :
 
 Of course, all tests MUST BE in PASS status and none should fail.
 
+# FINALLY 
+
+**Find how to EXPORT your Collection and send us via mail to check your tests**
+
+``` kevin.nadarajah@epitech.eu ``` or ``` anatole.babin@epitech.eu ```
+
 GOOD LUCK !
