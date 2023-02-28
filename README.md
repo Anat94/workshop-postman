@@ -251,3 +251,11 @@ Now, make some unit test for all routes you have create.
 - You should verify the content of the response
 
 Finally, you should have 3 - 5 tests for every routes.
+
+Here some outputs example :
+
+<img src="https://github.com/Anat94/workshop-postman/blob/main/testResults.png" width="200"/>
+
+Of course, all tests MUST BE in PASS status and none should fail.
+
+GOOD LUCK !
