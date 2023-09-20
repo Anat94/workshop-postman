@@ -10,9 +10,11 @@ sudo snap install postman
 <img src="https://github.com/Anat94/workshop-postman/blob/main/Postman.png" width="300"/>
 
 # 3 - Exercise
+
 ## 3.1 - Basic Request
+
 Make a GET request on this link and get product which has id 2:
-``https://dummyjson.com/products``
+`https://dummyjson.com/products`
 
 Expected :
 
@@ -37,7 +39,9 @@ Expected :
 ```
 
 ## 3.2 - Discover Query Params PART 1/2
+
 With the same Link, try to search product by phone
+
 ```
 {
     "products":[{"id":1,"title":"iPhone 9",
@@ -116,8 +120,10 @@ With the same Link, try to search product by phone
 ```
 
 ## 3.2.1 - Discover Query Params PART 2/2
+
 It's a very long response, why not trying to juste display the first occurence ? Try to use limit.
 Your outpout should seems like that:
+
 ```
 {
     "products":[
@@ -146,10 +152,10 @@ Your outpout should seems like that:
     "limit":1
 }
 ```
+
 ## 3.3 - Try your first POST request
-``
-https://dummyjson.com/products/add
-``
+
+`https://dummyjson.com/products/add`
 
 On this link, try to add a product with the title: "BMW Pencil"
 The request must return a message in JSON format :
@@ -160,10 +166,10 @@ The request must return a message in JSON format :
     "title": "BMW Pencil"
 }
 ```
+
 ## 3.4 - Try your first PUT request
-``
-https://dummyjson.com/products/
-``
+
+`https://dummyjson.com/products/`
 Now, try to update the product which have id one, with title: "iPhone Galaxy +1". You should see this outpout :
 
 ```
@@ -188,6 +194,7 @@ Now, try to update the product which have id one, with title: "iPhone Galaxy +1"
 ```
 
 ## 3.5 - Try your DELETE request
+
 Finaly, try to delete the object with the id one on the same link than before. You should see this outpout :
 
 ```
@@ -224,25 +231,25 @@ Now try to create an API to and implement all the previous route. You're free to
 
 Now you have create your own server. You should setup some unit - test. With Postman you can do some.
 To do so, go to
-``collection :``
+`collection :`
 
-<img src="https://github.com/Anat94/workshop-postman/blob/main/Collection.png" width="200"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/collection.png" width="200"/>
 
 Then, create a new collection :
 
-<img src="https://github.com/Anat94/workshop-postman/blob/main/new.png" width="200"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/New.png" width="200"/>
 
 Fill all fields like you have seen before (urls etc...)
 
 ## Set up Units tests
 
-Go to `` Test `` Tab :
+Go to `Test` Tab :
 
-<img src="https://github.com/Anat94/workshop-postman/blob/main/tests.png" width="200"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/Tests.png" width="200"/>
 
 Check on the right some tests example :
 
-<img src="https://github.com/Anat94/workshop-postman/blob/main/example.png" width="200"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/Example.png" width="200"/>
 
 Now, make some unit test for all routes you have create.
 
@@ -254,14 +261,14 @@ Finally, you should have 3 - 5 tests for every routes.
 
 Here some outputs example :
 
-<img src="https://github.com/Anat94/workshop-postman/blob/main/testsResults.png" width="500"/>
+<img src="https://github.com/Anat94/workshop-postman/blob/main/TestsResults.png" width="500"/>
 
 Of course, all tests MUST BE in PASS status and none should fail.
 
-# FINALLY 
+# FINALLY
 
 **Find how to EXPORT your Collection and send us via mail to check your tests**
 
-``` kevin.nadarajah@epitech.eu ``` or ``` anatole.babin@epitech.eu ```
+`kevin.nadarajah@epitech.eu` or `anatole.babin@epitech.eu`
 
 GOOD LUCK !
